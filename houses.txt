@@ -1,0 +1,16 @@
+House Address: 123 main st, Seattle, WA Number of Occupents: 4
+Alice, Smith, 123 main st, Seattle, WA, 45
+Dave, Smith, 123 main st, Seattle, WA, 43
+
+House Address: 234 2nd ave, Tacoma, WA Number of Occupents: 2
+Eve, Smith, 234 2nd ave, Tacoma, WA, 25
+Bob, Williams, 234 2nd ave, Tacoma, WA, 26
+
+House Address: 234 2nd ave, Seattle, WA Number of Occupents: 1
+Carol, Johnson, 234 2nd ave, Seattle, WA, 67
+
+House Address: 234 2nd ave, Tacoma, FL Number of Occupents: 1
+Frank, Jones, 234 2nd ave, Tacoma, FL, 23
+
+House Address: 345 3rd blvd apt 200, Seattle, WA Number of Occupents: 2
+
