@@ -62,6 +62,7 @@ public class Houses {
     public void writeFile(){
         Path filePath = Path.of("houses.txt");
         try {
+            Files.write(filePath, "".getBytes(), StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING);
             for(String house : houses) {
                 Vector<Person> currHouse = residents.get(house);
                 String houseAddr = "House Address: " + house + " Number of Occupents: " + currHouse.size() + "\n";

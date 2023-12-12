@@ -5,7 +5,7 @@ import java.util.Vector;
 
 
 public class HouseParser {
-    private static Vector<Person> scanLine(Vector<Person> people, String dataLine){
+    private static void scanLine(Vector<Person> people, String dataLine){
         Scanner data = new Scanner(dataLine);
         data.useDelimiter("\",\"|\"");
         String first = data.next();
@@ -16,7 +16,6 @@ public class HouseParser {
         int age = data.nextInt();
         people.add(new Person(first, last, addr, city, state, age));
         data.close();
-        return people;
     }
 
     public static Vector<Person> scan(){
